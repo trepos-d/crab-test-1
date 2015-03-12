@@ -25,7 +25,7 @@ public Borne(String dateMiseEnService, TypeCharge typeCharge, int idStation) {
 }
 @Override
 public String toString() {
-	return "Borne [idBorne=" + idBorne + ", dateMiseEnService="
+	return "Borne [idBorne=" + idBorne + ", dateMiseEnService=" 
 			+ dateMiseEnService + ", etat=" + etat + ", typeCharge="
 			+ typeCharge + "]";
 }
